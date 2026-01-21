@@ -1,57 +1,47 @@
-🩺 Breast Cancer Prediction System
-
+# 🩺 Breast Cancer Prediction System
 An AI-powered web application that predicts whether a breast tumor is Benign or Malignant using machine learning.
 The system is built using TensorFlow (Keras) for model training and Streamlit for deployment.
+---
+# 🚀 Live Overview
 
-🚀 Live Overview
+##This project demonstrates a complete ML pipeline:
+- Data preprocessing & scaling
+- Neural network training 
+- Model saving & reuse
+- Web-based inference using Streamlit
+---
+# 📊 Dataset
 
-This project demonstrates a complete ML pipeline:
+### Dataset: Breast Cancer Wisconsin (Diagnostic) Dataset
 
-Data preprocessing & scaling
+### Source: UCI Machine Learning Repository / sklearn datasets
 
-Neural network training
+### Features: 30 numerical features describing tumor characteristics
 
-Model saving & reuse
+## Target:
 
-Web-based inference using Streamlit
+### 0 → Benign
+### 1 → Malignant
+---
+# 🧠 Model Details
 
-📊 Dataset
+- Algorithm: Neural Network (Keras / TensorFlow)
+- Input Features: 30 (Mean, Standard Error, Worst values)
+- Loss Function: Binary Crossentropy
+- Optimizer: Adam
+- Evaluation Metric: Accuracy
+- Preprocessing: StandardScaler (saved and reused during inference)
+---
+# 🖥️ Web Application (Streamlit)
 
-Dataset: Breast Cancer Wisconsin (Diagnostic) Dataset
+###Features:
 
-Source: UCI Machine Learning Repository / sklearn datasets
-
-Features: 30 numerical features describing tumor characteristics
-
-Target:
-
-0 → Benign
-
-1 → Malignant
-
-🧠 Model Details
-
-Algorithm: Neural Network (Keras / TensorFlow)
-
-Input Features: 30 (Mean, Standard Error, Worst values)
-
-Loss Function: Binary Crossentropy
-
-Optimizer: Adam
-
-Evaluation Metric: Accuracy
-
-Preprocessing: StandardScaler (saved and reused during inference)
-
-🖥️ Web Application (Streamlit)
-Features:
-
-User-friendly UI with categorized inputs
-
-Manual numeric input for all 30 features
-
-Real-time prediction
-
-Confidence score display
+- User-friendly UI with categorized inputs
+- Manual numeric input for all 30 features
+- Real-time prediction
+- Confidence score display
+- Medical disclaimer included
+- Real-time prediction
+- Confidence score display
 
 Medical disclaimer included
