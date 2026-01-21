@@ -1,10 +1,10 @@
 # 🩺 Breast Cancer Prediction System
-An AI-powered web application that predicts whether a breast tumor is Benign or Malignant using machine learning.
+### An AI-powered web application that predicts whether a breast tumor is Benign or Malignant using machine learning.
 The system is built using TensorFlow (Keras) for model training and Streamlit for deployment.
 ---
 # 🚀 Live Overview
 
-##This project demonstrates a complete ML pipeline:
+### This project demonstrates a complete ML pipeline:
 - Data preprocessing & scaling
 - Neural network training 
 - Model saving & reuse
@@ -12,16 +12,16 @@ The system is built using TensorFlow (Keras) for model training and Streamlit fo
 ---
 # 📊 Dataset
 
-### Dataset: Breast Cancer Wisconsin (Diagnostic) Dataset
+#### Dataset: Breast Cancer Wisconsin (Diagnostic) Dataset
 
-### Source: UCI Machine Learning Repository / sklearn datasets
+#### Source: UCI Machine Learning Repository / sklearn datasets
 
-### Features: 30 numerical features describing tumor characteristics
+#### Features: 30 numerical features describing tumor characteristics
 
 ## Target:
 
-### 0 → Benign
-### 1 → Malignant
+#### 0 → Benign
+#### 1 → Malignant
 ---
 # 🧠 Model Details
 
